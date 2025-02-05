@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     gap: 3em; /* vahe elementide vahel */
     align-items: center;
+    background-color: deeppink;
 }
 /* #-ga viitame elemendile, millel on selline id */
 #photo {
@@ -18,12 +19,14 @@ body {
     align-items: center;
     gap: 3em;
     justify-content: center;
+    background-color: lightpink;
 }
 
 #textBox {
     max-height: 25em;
     overflow-x: hidden;
     overflow-y: auto;
+    background-color: hotpink;
 }
 
 .card {
@@ -37,6 +40,7 @@ body {
 }
 .icon {
     max-width: 10em;
+    font-size: xx-small;
 }
 iframe {
     width: 50em;
@@ -48,6 +52,7 @@ button {
     border: none;
     background-color: #D9D9D9;
     padding: 2em;
+    font-size: xx-large;
 }
 
 button:hover {
